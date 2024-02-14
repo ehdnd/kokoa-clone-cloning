@@ -1,6 +1,5 @@
 .user-component {
   justify-content: space-between;
-  margin-bottom: 15px;
 }
 
 .user-component,
@@ -21,7 +20,6 @@
 }
 
 .user-component__subtitile {
-  margin-top: 8px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 17px;
 }
@@ -52,4 +50,26 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__alart {
+  display: block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  color: tomato;
+  border: 2px solid tomato;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.user-component__text div {
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
