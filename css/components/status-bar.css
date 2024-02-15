@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  position: sticky;
 }
 
 .status-bar__column:nth-child(2) {
