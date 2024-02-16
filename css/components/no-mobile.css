@@ -1,19 +1,33 @@
 #no-mobile {
-  position: absolute;
+  position: fixed;
   z-index: 99;
   height: 100vh;
   width: 100vw;
   background-color: #abc1d1;
   display: flex;
   top: 0;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 30px;
   font-weight: 600;
+
+  overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-aspect-ratio: 3/4) {
   #no-mobile {
     display: none;
   }
+}
+
+#no-mobile div {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  line-height: 40px;
 }
