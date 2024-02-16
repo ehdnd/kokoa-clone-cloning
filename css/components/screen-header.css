@@ -4,6 +4,9 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  position: sticky;
+  top: 42px;
+  background-color: white;
 }
 
 .screen-header__title {
@@ -23,4 +26,17 @@
   position: absolute;
   top: -5px;
   left: 0px;
+}
+
+@keyframes hoverGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: hoverGear 1.5s linear infinite;
 }
