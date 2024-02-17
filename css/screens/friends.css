@@ -29,6 +29,11 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.friends-screen__channel-text span:last-child {
+  margin-left: 5px;
+  font-size: 13px;
+}
+
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
@@ -51,4 +56,8 @@
   font-size: 120px;
   animation: hideSplashScreen 0.5s ease-in-out forwards;
   animation-delay: 1s;
+}
+
+.friends--margin {
+  margin-bottom: 15px;
 }

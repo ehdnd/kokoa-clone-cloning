@@ -18,3 +18,7 @@
   background-color: tomato;
   position: absolute;
 }
+
+.badge--none {
+  background-color: white;
+}
